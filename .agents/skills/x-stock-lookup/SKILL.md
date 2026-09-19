@@ -1,4 +1,4 @@
-﻿---
+---
 name: x-stock-lookup
 description: >
   Autonomous workflow for browsing X (Twitter) via Chrome DevTools MCP to track
@@ -46,6 +46,12 @@ Use this when looking for high-conviction institutional buys, bulk/block deals, 
 2. Extract tweets matching current date/week.
 3. For broader exchange deals:
    https://x.com/search?q=(%22bulk%20deal%22%20OR%20%22block%20deal%22)%20(NSE%20OR%20BSE)%20-filter%3Areplies&f=live
+
+### Mode 3: Key Monitored Analyst & Investor Accounts Scan
+Directly inspect recent posts and stock pitches from priority tracked handles:
+1. Search across the tracked handle cluster:
+   `https://x.com/search?q=(from%3Avbomkara%20OR%20from%3AJoshiEien%20OR%20from%3Aishmohit1%20OR%20from%3Asoicfinance%20OR%20from%3AShashankUdupa1%20OR%20from%3Aequity__vision%20OR%20from%3Arajuidesai%20OR%20from%3Aias_summit%20OR%20from%3Atusharbohra%20OR%20from%3Amalpani)&f=live`
+2. Extract latest actionable stock ideas, sector breakdowns, earnings takes, and company theses.
 
 ---
 
